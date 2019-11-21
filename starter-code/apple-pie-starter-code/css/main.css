@@ -1,3 +1,32 @@
+header{
+    margin-top: 50px;
+    height: 530px;
+    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+header >div{
+    background-image: url(../images/apple-pie.jpg);
+    background-size: 800px;
+    background-repeat: no-repeat;
+    width: 800px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    
+   
+
+}
+
+h1{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    }
+
 
 #apple{
     display:flex;
@@ -8,24 +37,23 @@
 
 #apple-receipe{
     width: 800px;
-    
+   
+  }
 
-}
-
-h1{
-    font-size: 50px;
-    
-}
-
-
-img{
-width: 50%;
-height: 80%;
+#Ingredients >div >img, #directions >div >img{
+    border-bottom: 2px solid grey;
 }
 
 
 
 h4{
     font-size: 20px;
+}
+
+
+@media(max-width: 800px){
+    #test{
+        font-size: 50px;
+    }
 
 }
