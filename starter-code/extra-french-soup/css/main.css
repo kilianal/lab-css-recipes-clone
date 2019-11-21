@@ -7,5 +7,43 @@ h1, body, html, main {
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 18px;
 }
+
+header{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+h1{
+  color: white;
+  font-size: 2.5rem;
+  font-stretch: expanded;
+  font-weight: normal;
+}
+
+header > div{
+  background-image: url(../images/soup.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 18rem;
+  width: 40rem;
+  background-size: 100%;
+  margin-top: 10px;
+
+}
+
+#description >div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.2rem 35rem 1.2rem 35rem;
+  
+
+}
+
+
+
