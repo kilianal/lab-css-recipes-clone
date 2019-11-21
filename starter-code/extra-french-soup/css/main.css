@@ -45,3 +45,14 @@ header > div{
 }
 
 
+
+
+img{
+  border-bottom: 2px solid grey;
+  align-items: center;
+
+}
+
+ul>li{
+  list-style: none;
+}
