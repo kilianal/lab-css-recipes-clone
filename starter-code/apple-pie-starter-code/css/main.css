@@ -1,0 +1,31 @@
+
+#apple{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-flow: row;
+}
+
+#apple-receipe{
+    width: 800px;
+    
+
+}
+
+h1{
+    font-size: 50px;
+    
+}
+
+
+img{
+width: 50%;
+height: 80%;
+}
+
+
+
+h4{
+    font-size: 20px;
+
+}
